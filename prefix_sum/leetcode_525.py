@@ -15,6 +15,3 @@ class Solution:
       else:
         max_len = max(max_len, i - m[n1-n0])
     return max_len
-    
-solution = Solution()
-print(solution.findMaxLength([0,0,0,1,0,1,0,1]))
